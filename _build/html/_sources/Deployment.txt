@@ -34,13 +34,13 @@ By default, the Cowboy web server listens only to the local host network address
 
 ::
 
--define(DEFAULT_INTERFACE,                  {127,0,0,1}). % ip address
+-define(DEFAULT_IP,                  {127,0,0,1}). % interface ip address
 
 to
 
 ::
 
-  -define(DEFAULT_INTERFACE,                  {0,0,0,0}). % ip address
+-define(DEFAULT_IP,                  {0,0,0,0}). % interface ip address
 
 .. note::
 

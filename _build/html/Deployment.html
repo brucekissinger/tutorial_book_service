@@ -78,11 +78,11 @@
 <ol class="arabic simple" start="3">
 <li>Edit the <strong>cloudi_service_http_cowboy.erl</strong> file and change the line that looks like:</li>
 </ol>
-<div class="highlight-python"><div class="highlight"><pre>-define(DEFAULT_INTERFACE,                  {127,0,0,1}). % ip address
+<div class="highlight-python"><div class="highlight"><pre>-define(DEFAULT_IP,                  {127,0,0,1}). % interface ip address
 </pre></div>
 </div>
 <p>to</p>
-<div class="highlight-python"><div class="highlight"><pre>-define(DEFAULT_INTERFACE,                  {0,0,0,0}). % ip address
+<div class="highlight-python"><div class="highlight"><pre>-define(DEFAULT_IP,                  {0,0,0,0}). % interface ip address
 </pre></div>
 </div>
 <div class="admonition note">
@@ -335,7 +335,7 @@ mkdir book/ebin
       </ul>
     </div>
     <div class="footer">
-      Last updated on Apr 24, 2015.
+      Last updated on Apr 27, 2015.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
     </div>
   </body>
